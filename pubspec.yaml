@@ -1,0 +1,24 @@
+# Archivo de configuración del proyecto Velia.
+name: velia
+description: Velia, app de cuidado digital para adultos mayores.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Para que los calendarios y relojes salgan en español.
+  flutter_localizations:
+    sdk: flutter
+  # Manejo de estado (Provider).
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
